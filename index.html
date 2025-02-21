@@ -2,55 +2,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="AllSciInfo - The latest scientific discoveries and AI research.">
+    <meta name="description" content="AllSciInfo - The latest in science, space exploration, and technology. Stay updated with discoveries and innovations!">
     <link rel="canonical" href="https://yourwebsite.com/">
-    <title>AllSciInfo - Science & AI Blog</title>
+    <title>AllSciInfo - Science & Space Exploration</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
-        .container { width: 90%; max-width: 1200px; margin: auto; padding: 20px; }
-        .header { background: #222; color: white; padding: 15px; text-align: center; }
-        .header h1 { margin: 0; cursor: pointer; }
-        .posts { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px; }
-        .card { background: white; padding: 15px; border-radius: 10px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease-in-out; }
-        .card:hover { transform: scale(1.05); }
-        .card h2 { margin: 0 0 10px; }
-        .card a { text-decoration: none; color: #007BFF; }
-        .footer { text-align: center; padding: 10px; background: #222; color: white; margin-top: 20px; }
-        @media (max-width: 600px) { .posts { grid-template-columns: 1fr; } }
-    </style>
-    <script>
-        function redirectToMainSite() {
-            window.location.href = "https://yourwebsite.com";
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f5f5;
+            text-align: center;
         }
-    </script>
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+        .card {
+            background: white;
+            width: 300px;
+            margin: 15px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .read-more {
+            display: inline-block;
+            padding: 10px 15px;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .read-more:hover {
+            background: #2980b9;
+        }
+        .footer {
+            background: #2c3e50;
+            color: white;
+            padding: 15px;
+            margin-top: 30px;
+        }
+        .visit-site {
+            display: inline-block;
+            padding: 12px 18px;
+            background: #e74c3c;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .visit-site:hover {
+            background: #c0392b;
+        }
+    </style>
 </head>
 <body>
-    <div class="header" onclick="redirectToMainSite()">
-        <h1>AllSciInfo</h1>
-    </div><div class="container">
-    <h2>Latest Posts</h2>
-    <div class="posts">
+    <header>
+        AllSciInfo - Science & Space Exploration
+    </header>
+    <div class="container">
         <div class="card">
-            <h2>How AI is Transforming Science</h2>
-            <p>Artificial Intelligence is revolutionizing scientific research...</p>
-            <a href="blog/science-ai.html">Read More</a>
+            <h2>Latest Space Discoveries</h2>
+            <p>Explore the newest discoveries in space exploration and astronomy.</p>
+            <a href="#" class="read-more">Read More</a>
         </div>
         <div class="card">
-            <h2>The Future of Space Exploration</h2>
-            <p>New technologies are making interstellar travel a reality...</p>
-            <a href="blog/space-exploration.html">Read More</a>
+            <h2>AI & Future Tech</h2>
+            <p>How artificial intelligence is shaping the future of technology.</p>
+            <a href="#" class="read-more">Read More</a>
         </div>
         <div class="card">
-            <h2>Breakthroughs in Quantum Computing</h2>
-            <p>Quantum computers are reshaping the future of computation...</p>
-            <a href="blog/quantum-computing.html">Read More</a>
+            <h2>Science Innovations</h2>
+            <p>The latest breakthroughs in physics, biology, and chemistry.</p>
+            <a href="#" class="read-more">Read More</a>
         </div>
     </div>
-</div>
-
-<div class="footer">
-    &copy; 2024 AllSciInfo | All Rights Reserved.
-</div>
-
+    <a href="https://yourwebsite.com" class="visit-site">Visit Our Site</a>
+    <div class="footer">
+        &copy; 2024 AllSciInfo. All rights reserved.
+    </div>
 </body>
-  </html>
+</html>
